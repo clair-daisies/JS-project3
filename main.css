@@ -1,0 +1,60 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #88d59e;
+  color: #333;
+  font-family: "calibri", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 8px;
+  background: #eee;
+  flex: 0 0 80%;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+button {
+  display: block;
+  font-size: 2rem;
+  margin: 1rem auto;
+  padding: 0.5rem 1rem;
+  color: #eee;
+  background: #298899;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  transition: all 400ms ease-in;
+}
+
+button:hover,
+button:active {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  margin: 1rem;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  border: 3px solid #88d59e;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  box-shadow: 0 0 10px;
+}
+
+#messageOut {
+  margin: 0.5rem 0;
+  color: #298899;
+  text-transform: capitalize;
+}
